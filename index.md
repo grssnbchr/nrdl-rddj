@@ -54,9 +54,7 @@ Deswegen:
 - Scheinobjektivität: Gefahr steigt mit der Komplexität der Methoden
 - Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen
 
-<aside class="notes">
-                    jlkjlkjl
-                </aside>
+<aside class="notes">jlkjlkjl</aside>
                 
 --- 
 
