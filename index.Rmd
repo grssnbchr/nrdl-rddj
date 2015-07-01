@@ -18,7 +18,7 @@ knit        : slidify::knit2slides
 ### nr-Jahreskonferenz 2015
 ## Transparenz und Reproduzierbarkeit im #DDJ
 
-### Beispiele mit R
+### Effizientes Arbeiten mit R und GitHub
 
 
 Timo Grossenbacher, SRF Data
@@ -51,18 +51,154 @@ Deswegen:
 
 ## Warum Transparenz?
 
-<aside class="notes">jlkjlkjl</aside>
+<aside class="notes">Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden - schon gar nicht in einem (Zeitungs-)Artikel. Der Vorwurf der Scheinobjektivität hat schon etwas an sich. Datenjournalisten wissen,
+dass die Resultate ihrer Arbeit nicht per se objektiver ist als die von anderen Journalisten. Sie sollten sich aber auch bewusst sein, dass beliebig komplexe Auswertungen Gefahr laufen, ihre Objektivität ganz zu verlieren. Nämlich dann, wenn unüberlegt und ungerechtfertigt Entscheidungen getroffen werden, die das Resultat einer Analyse stark verändern könn(t)en. </aside>
 
-.fragment 1. Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen
+.fragment Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden
 
-.fragment 2. **Scheinobjektivität**: Gefahr steigt mit der Komplexität der Methoden
+.fragment Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen
 
-.fragment 3. Logische Konsequenz von Open Data
+.fragment Gefahr der **"Pseudo-Objektivität"** steigt mit der Komplexität der Methoden
+
+---
+
+## Stufen der Transparenz
+
+<aside class="notes"> </aside>
+
+.fragment 1. Quellenangaben ([keineswegs selbstverständlich](http://t.co/B6Qy2BNNqB))
+
+.fragment 2. Offenlegung der Daten (z.B. wie bei [538.com](https://github.com/fivethirtyeight/data))
+
+.fragment 3. Beschreibung und Rechtfertigung der Methoden, z.B. mit einem [Werkstattbericht](http://www.digitalerwandel.de/2013/04/23/wir-bauen-uns-eine-nachrichtenquelle-werkstattbericht-zum-flugrouten-radar/)
+
+.fragment 4. Offenlegung der Methoden, volle *Reproduzierbarkeit*
+
+
 
 --- 
 
+## Warum Reproduzierbarkeit?
 
+<aside class="notes">Ohne Reproduzierbarkeit keine echte, vollständige Transparenz. Richtige Reproduzierbarkeit bedingt, dass von den absoluten Rohdaten bis zum (analytischen) Endergebnis alle Schritte nachvollziehbar und ausführbar sind. Eigentlich ist dies nur zu erreichen, wenn man die Schritte "aufzeichnet", und dafür eignet sich am besten Code: Sprich, die Datenanalyse selber besteht aus einem Skript, dass einen Input nimmt und einen Output generiert. Das bringt zwei Vorteile mit sich: Man kann das Skript wiederverwenden, z.B. bei neuen Daten. Und das ganze ist automatisiert, sprich, wir können Kaffee trinken gehen, während der Computer rechnet. Die Automatisierung kann wiederum dabei helfen, Fehler zu vermeiden, die man beim manuellen Bearbeiten, z.B. bei Unkonzentriertheit, machen könnte.</aside>
 
+.fragment 1. Transparenz
 
+.fragment 2. Wiederverwendbarkeit 
 
+.fragment 3. Automatisierung 
 
+.fragment 3b. Reduzierte Fehleranfälligkeit
+
+--- 
+
+## Genug der Theorie!!! 
+
+![Gute Nacht](assets/img/sleeping.jpg)
+
+Quelle: Flickr.com
+
+---
+
+## Wie wir versuchen, transparent zu sein
+
+(und effizient zu arbeiten...)
+
+[R](http://r-project.org) / [RMarkdown](http://rmarkdown.rstudio.com/)
+
+[GitHub](http://github.com)
+
+---
+
+## Beispiel 1: Rüstungsexporte
+
+![Rüstungsexporte](assets/img/notrecht.jpg)
+
+Publizierter Artikel: [Hier](http://www.srf.ch/news/schweiz/notrecht-als-letztes-mittel-gegen-heikle-ruestungsexporte)
+
+Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/)
+
+--> DEMO
+
+---
+
+## Beispiel 1: Rüstungsexporte
+
+* Auswertung der Daten in R:
+ * Reinladen
+ * Vorprozessieren (messy -> tidy)
+ * Erste Auswertungen inkl. Plots
+ 
+* Publikation als Markdown-HTML
+* Publikation auf GitHub Pages:
+ * Automatisiert über Shell-Skript
+
+---
+
+## Beispiel 2: Wählerstärken in den Gemeinden
+
+![Wahlen](assets/img/wahlen.jpg)
+
+Publizierter Artikel: [Hier](http://www.srf.ch/news/wahlen-15/wahlkampf/so-haben-die-schweizer-gemeinden-seit-1971-gewaehlt)
+
+Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/elections15-project1)
+
+--> DEMO
+
+--- 
+
+## Beispiel 2: Parteistärken in den Gemeinden
+
+* Rohdaten und Prozessierungsschritte wurden noch nicht veröffentlicht, ist aber geplant
+* Interaktive Visualisierungen mit Shiny
+* Vorprozessierung von "Hand" kaum vorstellbar
+* Und immer wieder:
+
+`git status`
+
+---
+
+## Fazit
+
+**R** ermöglicht uns:
+
+* alle Prozessierungsschritte an einem Ort zu bündeln
+    * einlesen
+    * vorprozessieren
+    * auswerten
+    * visualisieren
+    * vorbereiten
+    * etc.
+ 
+* Reproduzierbarkeit & Publikation der Methoden
+
+---
+
+## Fazit
+
+**GitHub** ermöglicht uns:
+
+* Austausch von Code und Daten (intern wie extern)
+* Schnelle Publikation über GitHub Pages
+* Versionsvergleiche
+    
+---
+
+Wir sind erst am Anfang und probieren viel aus.
+Klar ist: Transparenz ist notwendig - und machbar! 
+
+---
+
+## Blut geleckt?
+
+[rddj.info - damit bringt Ihr Euch R bei](http://rddj.info)
+    
+---
+
+# Danke
+
+## Fragen? 
+
+[@grssnbchr](http://twitter.com/grssnbchr)
+
+[@srfdata](http://twitter.com/srfdata)

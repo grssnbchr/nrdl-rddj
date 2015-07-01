@@ -2,8 +2,9 @@
     margin-left: 25% !important;
 }
 
-#slide-2 img {
+img {
     width: 60% !important;
+    border: none;
 }
 .controls .navigate-down {
     display: none !important;

@@ -23,7 +23,7 @@
   <h3>nr-Jahreskonferenz 2015</h3>
   <h2>Transparenz und Reproduzierbarkeit im #DDJ</h2>
 
-<h3>Beispiele mit R</h3>
+<h3>Effizientes Arbeiten mit R und GitHub</h3>
 
 <p>Timo Grossenbacher, SRF Data</p>
 
@@ -52,18 +52,160 @@
 </section>
 <section class='' data-state='' id='slide-4'>
   <h2>Warum Transparenz?</h2>
-  <p><aside class="notes">jlkjlkjl</aside></p>
+  <p><aside class="notes">Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden - schon gar nicht in einem (Zeitungs-)Artikel. Der Vorwurf der Scheinobjektivität hat schon etwas an sich. Datenjournalisten wissen,
+dass die Resultate ihrer Arbeit nicht per se objektiver ist als die von anderen Journalisten. Sie sollten sich aber auch bewusst sein, dass beliebig komplexe Auswertungen Gefahr laufen, ihre Objektivität ganz zu verlieren. Nämlich dann, wenn unüberlegt und ungerechtfertigt Entscheidungen getroffen werden, die das Resultat einer Analyse stark verändern könn(t)en. </aside></p>
 
-<p class='fragment'>1. Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen</p>
+<p class='fragment'>Das <strong>Problem</strong>: Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden</p>
 
-<p class='fragment'>2. <strong>Scheinobjektivität</strong>: Gefahr steigt mit der Komplexität der Methoden</p>
+<p class='fragment'>Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen</p>
 
-<p class='fragment'>3. Logische Konsequenz von Open Data</p>
+<p class='fragment'>Gefahr der <strong>&quot;Pseudo-Objektivität&quot;</strong> steigt mit der Komplexität der Methoden</p>
 
 </section>
 <section class='' data-state='' id='slide-5'>
-  
-  
+  <h2>Stufen der Transparenz</h2>
+  <p><aside class="notes"> </aside></p>
+
+<p class='fragment'>1. Quellenangaben (<a href="http://t.co/B6Qy2BNNqB">keineswegs selbstverständlich</a>)</p>
+
+<p class='fragment'>2. Offenlegung der Daten (z.B. wie bei <a href="https://github.com/fivethirtyeight/data">538.com</a>)</p>
+
+<p class='fragment'>3. Beschreibung und Rechtfertigung der Methoden, z.B. mit einem <a href="http://www.digitalerwandel.de/2013/04/23/wir-bauen-uns-eine-nachrichtenquelle-werkstattbericht-zum-flugrouten-radar/">Werkstattbericht</a></p>
+
+<p class='fragment'>4. Offenlegung der Methoden, volle <em>Reproduzierbarkeit</em></p>
+
+</section>
+<section class='' data-state='' id='slide-6'>
+  <h2>Warum Reproduzierbarkeit?</h2>
+  <p><aside class="notes">Ohne Reproduzierbarkeit keine echte, vollständige Transparenz. Richtige Reproduzierbarkeit bedingt, dass von den absoluten Rohdaten bis zum (analytischen) Endergebnis alle Schritte nachvollziehbar und ausführbar sind. Eigentlich ist dies nur zu erreichen, wenn man die Schritte &quot;aufzeichnet&quot;, und dafür eignet sich am besten Code: Sprich, die Datenanalyse selber besteht aus einem Skript, dass einen Input nimmt und einen Output generiert. Das bringt zwei Vorteile mit sich: Man kann das Skript wiederverwenden, z.B. bei neuen Daten. Und das ganze ist automatisiert, sprich, wir können Kaffee trinken gehen, während der Computer rechnet. Die Automatisierung kann wiederum dabei helfen, Fehler zu vermeiden, die man beim manuellen Bearbeiten, z.B. bei Unkonzentriertheit, machen könnte.</aside></p>
+
+<p class='fragment'>1. Transparenz</p>
+
+<p class='fragment'>2. Wiederverwendbarkeit </p>
+
+<p class='fragment'>3. Automatisierung </p>
+
+<p class='fragment'>3b. Reduzierte Fehleranfälligkeit</p>
+
+</section>
+<section class='' data-state='' id='slide-7'>
+  <h2>Genug der Theorie!!!</h2>
+  <p><img src="assets/img/sleeping.jpg" alt="Gute Nacht"></p>
+
+<p>Quelle: Flickr.com</p>
+
+</section>
+<section class='' data-state='' id='slide-8'>
+  <h2>Wie wir versuchen, transparent zu sein</h2>
+  <p>(und effizient zu arbeiten...)</p>
+
+<p><a href="http://r-project.org">R</a> / <a href="http://rmarkdown.rstudio.com/">RMarkdown</a></p>
+
+<p><a href="http://github.com">GitHub</a></p>
+
+</section>
+<section class='' data-state='' id='slide-9'>
+  <h2>Beispiel 1: Rüstungsexporte</h2>
+  <p><img src="assets/img/notrecht.jpg" alt="Rüstungsexporte"></p>
+
+<p>Publizierter Artikel: <a href="http://www.srf.ch/news/schweiz/notrecht-als-letztes-mittel-gegen-heikle-ruestungsexporte">Hier</a></p>
+
+<p>Methodik und Rohdaten: <a href="http://srfdata.github.io/1503-seco-dual-use-goods/">Hier</a></p>
+
+<p>--&gt; DEMO</p>
+
+</section>
+<section class='' data-state='' id='slide-10'>
+  <h2>Beispiel 1: Rüstungsexporte</h2>
+  <ul>
+<li><p>Auswertung der Daten in R:</p>
+
+<ul>
+<li>Reinladen</li>
+<li>Vorprozessieren (messy -&gt; tidy)</li>
+<li>Erste Auswertungen inkl. Plots</li>
+</ul></li>
+<li><p>Publikation als Markdown-HTML</p></li>
+<li><p>Publikation auf GitHub Pages:</p>
+
+<ul>
+<li>Automatisiert über Shell-Skript</li>
+</ul></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-11'>
+  <h2>Beispiel 2: Wählerstärken in den Gemeinden</h2>
+  <p><img src="assets/img/wahlen.jpg" alt="Wahlen"></p>
+
+<p>Publizierter Artikel: <a href="http://www.srf.ch/news/wahlen-15/wahlkampf/so-haben-die-schweizer-gemeinden-seit-1971-gewaehlt">Hier</a></p>
+
+<p>Methodik / interaktive Auswertung: <a href="https://grssnbchr.shinyapps.io/elections15-project1">Hier</a></p>
+
+<p>--&gt; DEMO</p>
+
+</section>
+<section class='' data-state='' id='slide-12'>
+  <h2>Beispiel 2: Parteistärken in den Gemeinden</h2>
+  <ul>
+<li>Rohdaten und Prozessierungsschritte wurden noch nicht veröffentlicht, ist aber geplant</li>
+<li>Interaktive Visualisierungen mit Shiny</li>
+<li>Vorprozessierung von &quot;Hand&quot; kaum vorstellbar</li>
+<li>Und immer wieder:</li>
+</ul>
+
+<p><code>git status</code></p>
+
+</section>
+<section class='' data-state='' id='slide-13'>
+  <h2>Fazit</h2>
+  <p><strong>R</strong> ermöglicht uns:</p>
+
+<ul>
+<li><p>alle Prozessierungsschritte an einem Ort zu bündeln</p>
+
+<ul>
+<li>einlesen</li>
+<li>vorprozessieren</li>
+<li>auswerten</li>
+<li>visualisieren</li>
+<li>vorbereiten</li>
+<li>etc.</li>
+</ul></li>
+<li><p>Reproduzierbarkeit &amp; Publikation der Methoden</p></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-14'>
+  <h2>Fazit</h2>
+  <p><strong>GitHub</strong> ermöglicht uns:</p>
+
+<ul>
+<li>Austausch von Code und Daten (intern wie extern)</li>
+<li>Schnelle Publikation über GitHub Pages</li>
+<li>Versionsvergleiche</li>
+</ul>
+
+<hr>
+
+<p>Wir sind erst am Anfang und probieren viel aus.
+Klar ist: Transparenz ist notwendig - und machbar! </p>
+
+</section>
+<section class='' data-state='' id='slide-15'>
+  <h2>Blut geleckt?</h2>
+  <p><a href="http://rddj.info">rddj.info - damit bringt Ihr Euch R bei</a></p>
+
+<hr>
+
+<h1>Danke</h1>
+
+<h2>Fragen?</h2>
+
+<p><a href="http://twitter.com/grssnbchr">@grssnbchr</a></p>
+
+<p><a href="http://twitter.com/srfdata">@srfdata</a></p>
+
 </section>
     </div>
   </div>
