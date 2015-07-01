@@ -11,7 +11,8 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## Transparenz und Reproduzierbarkeit im Datenjournalismus
+### Beispiele mit R
 
 1. Test
 2. Write using R Markdown
