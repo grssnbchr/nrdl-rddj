@@ -192,7 +192,7 @@ Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/electio
     
 ---
 
-*Wir sind erst am Anfang und probieren viel aus.*
+*Wir sind erst am Anfang und probieren viel aus.*<br/>
 *Klar ist: Transparenz ist notwendig - und machbar!*
 
 ---
