@@ -72,9 +72,9 @@ Datenjournalisten wissen, dass die Resultate ihrer Arbeit nicht per se objektive
 
 .fragment 1. Quellenangaben ([keineswegs selbstverständlich](http://t.co/B6Qy2BNNqB))
 
-.fragment 2. Offenlegung der Daten (z.B. wie bei [538.com](https://github.com/fivethirtyeight/data))
+.fragment 2. Beschreibung und Rechtfertigung der Methoden, z.B. mit einem [Werkstattbericht](http://www.digitalerwandel.de/2013/04/23/wir-bauen-uns-eine-nachrichtenquelle-werkstattbericht-zum-flugrouten-radar/)
 
-.fragment 3. Beschreibung und Rechtfertigung der Methoden, z.B. mit einem [Werkstattbericht](http://www.digitalerwandel.de/2013/04/23/wir-bauen-uns-eine-nachrichtenquelle-werkstattbericht-zum-flugrouten-radar/)
+.fragment 3. Offenlegung der Rohdaten und prozessierten Daten (z.B. wie bei [538.com](https://github.com/fivethirtyeight/data))
 
 .fragment 4. Offenlegung der Methoden, volle *Reproduzierbarkeit*
 
