@@ -15,6 +15,8 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
+---  
+
 ## Transparenz und Reproduzierbarkeit im Datenjournalismus
 ### Beispiele mit R
 
@@ -24,9 +26,7 @@ Timo Grossenbacher, SRF Data
 
 [@srfdata](http://twitter.com/srfdata)
 
-
-
---- .class #slide-1
+--- 
 
 ## Slide 2
 
@@ -52,11 +52,11 @@ summary(iris)
 ## 
 ```
 
---- .class #slide-2
+--- #slide-tweet 
 
 ## Warum Transparenz?
 
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="de" dir="ltr"><a href="https://twitter.com/brenntr">@brenntr</a> <a href="https://twitter.com/fljan">@fljan</a> <a href="https://twitter.com/srfdata">@srfdata</a> <a href="https://twitter.com/srfnews">@srfnews</a> sag ich doch, das mit dem Datenjournalismus ist eine heikle Sache und mündet zu oft in Pseudoobjektivität</p>&mdash; Jacqueline Badran (@JayBadran) <a href="https://twitter.com/JayBadran/status/613021865007820800">June 22, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
---- .class #slide-3
+
