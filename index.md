@@ -15,7 +15,6 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
----  
 
 ## Transparenz und Reproduzierbarkeit im Datenjournalismus
 ### Beispiele mit R
@@ -52,7 +51,7 @@ summary(iris)
 ## 
 ```
 
---- #slide-tweet 
+--- #slide-tweet
 
 ## Warum Transparenz?
 
