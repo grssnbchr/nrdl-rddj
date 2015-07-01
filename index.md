@@ -16,7 +16,7 @@ knit        : slidify::knit2slides
 ---
 
 ### nr-Jahreskonferenz 2015
-## Transparenz und Reproduzierbarkeit im Datenjournalismus
+## Transparenz und Reproduzierbarkeit im #DDJ
 
 ### Beispiele mit R
 
@@ -53,13 +53,16 @@ Deswegen:
 
 <aside class="notes">jlkjlkjl</aside>
 
-- Scheinobjektivität: Gefahr steigt mit der Komplexität der Methoden
-- Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen
+.fragment 1. Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen
+
+.fragment 2. **Scheinobjektivität**: Gefahr steigt mit der Komplexität der Methoden
+
+.fragment 3. Logische Konsequenz von Open Data
 
 --- 
 
-## Warum Transparenz?
 
-- Logische Konsequenz von Open Data
+
+
 
 
