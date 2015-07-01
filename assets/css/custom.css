@@ -1,3 +1,13 @@
 #slide-3-tweet iframe {
-    margin-left: 30% !important;
+    margin-left: 25% !important;
+}
+
+#slide-2 img {
+    width: 60% !important;
+}
+.controls .navigate-down {
+    display: none !important;
+}
+.controls .navigate-up {
+    display: none !important;
 }

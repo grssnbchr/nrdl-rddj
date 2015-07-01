@@ -4,20 +4,22 @@ subtitle    : Beispiele mit R
 author      : Timo Grossenbacher
 job         : Datenjournalist @srfdata
 framework   : revealjs        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : default      # 
 revealjs:
   theme: simple
   transition: none
   center: "true"
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : default      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-
+### Netzwerk Recherche 2015 #nr15
 ## Transparenz und Reproduzierbarkeit im Datenjournalismus
+
 ### Beispiele mit R
+
 
 Timo Grossenbacher, SRF Data
 
@@ -27,11 +29,14 @@ Timo Grossenbacher, SRF Data
 
 --- 
 
-## Slide 2
+## Über mich
 
-```{r}
-summary(iris)
-```
+Ursprünglich: Geographie / Informatik
+
+Seit November 2014 beim Team von SRF Data als Programmierer und Datenjournalist 
+
+![SRF Data](assets/img/srfdata.jpg)
+
 
 --- #slide-3-tweet
 

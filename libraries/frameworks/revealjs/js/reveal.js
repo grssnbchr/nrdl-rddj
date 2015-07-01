@@ -65,7 +65,7 @@ var Reveal = (function(){
 			mouseWheel: false,
 
 			// Apply a 3D roll to links on hover
-			rollingLinks: true,
+			rollingLinks: false,
 
 			// Theme (see /css/theme)
 			theme: null,
