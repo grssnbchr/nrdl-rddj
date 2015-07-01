@@ -42,6 +42,8 @@ Seit November 2014 beim Team von SRF Data als Programmierer und Datenjournalist
 
 ## Warum Transparenz?
 
+<aside class="notes">Vor ein paar Wochen hat sich eine Schweizer Politikerin bei uns über ein neues Tool beschwert. In diesem Fall war der Vorwurf der Pseudoobjektivität völlig unbegründet - einen wunden Punkt des Datenjournalismus trifft die Dame mit dem Vorwurf jedoch trotzdem.</aside>
+
 Deswegen: 
 
 <blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="de" dir="ltr"><a href="https://twitter.com/brenntr">@brenntr</a> <a href="https://twitter.com/fljan">@fljan</a> <a href="https://twitter.com/srfdata">@srfdata</a> <a href="https://twitter.com/srfnews">@srfnews</a> sag ich doch, das mit dem Datenjournalismus ist eine heikle Sache und mündet zu oft in Pseudoobjektivität</p>&mdash; Jacqueline Badran (@JayBadran) <a href="https://twitter.com/JayBadran/status/613021865007820800">June 22, 2015</a></blockquote>
@@ -51,8 +53,8 @@ Deswegen:
 
 ## Warum Transparenz?
 
-<aside class="notes">Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden - schon gar nicht in einem (Zeitungs-)Artikel. Der Vorwurf der Scheinobjektivität hat schon etwas an sich. Datenjournalisten wissen,
-dass die Resultate ihrer Arbeit nicht per se objektiver ist als die von anderen Journalisten. Sie sollten sich aber auch bewusst sein, dass beliebig komplexe Auswertungen Gefahr laufen, ihre Objektivität ganz zu verlieren. Nämlich dann, wenn unüberlegt und ungerechtfertigt Entscheidungen getroffen werden, die das Resultat einer Analyse stark verändern könn(t)en. </aside>
+<aside class="notes">Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden - schon gar nicht in einem (Zeitungs-)Artikel. Während man bei klassischen Recherchen schnell mal erklären kann, dass man z.B. eine wichtige Info in einer Gerichtsakte gefunden hat, ist es beim DDJ schwieriger.
+Datenjournalisten wissen, dass die Resultate ihrer Arbeit nicht per se objektiver ist als die von anderen Journalisten. Sie sollten sich aber auch bewusst sein, dass beliebig komplexe Auswertungen Gefahr laufen, ihre Objektivität ganz zu verlieren. Nämlich dann, wenn unüberlegt und ungerechtfertigt Entscheidungen getroffen werden, die das Resultat einer Analyse stark verändern könn(t)en. Wenn man diese Schritte nicht transparent macht, dann besteht in der Tat die Gefahr der Pseudoobjektivität. Mit der Offenlegung unserer Methoden machen wir uns zwar angreifbar, aber wir können uns auch besser rechtfertigen. Im Idealfall weisen uns Leser konstruktiv auf Fehler hin, die wir beim nächsten Mal vermeiden können.</aside>
 
 .fragment Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden
 
@@ -60,11 +62,13 @@ dass die Resultate ihrer Arbeit nicht per se objektiver ist als die von anderen 
 
 .fragment Gefahr der **"Pseudo-Objektivität"** steigt mit der Komplexität der Methoden
 
+.fragment Interessierte sollten die Chance erhalten, uns zu hinterfragen *und* uns zu korrigieren
+
 ---
 
 ## Stufen der Transparenz
 
-<aside class="notes"> </aside>
+<aside class="notes">Transparenz kann man verschiedentlich auslegen, ich habe einmal versucht, eine Abstufung zu machen. Jede Stufe bedingt mehr oder weniger die vorhergehenden Stufen.</aside>
 
 .fragment 1. Quellenangaben ([keineswegs selbstverständlich](http://t.co/B6Qy2BNNqB))
 
@@ -94,6 +98,8 @@ dass die Resultate ihrer Arbeit nicht per se objektiver ist als die von anderen 
 
 ## Genug der Theorie!!! 
 
+<aside class="notes">Im folgenden nun zwei Beispiele, wie wir bei SRF Data konkret versuchen, das zu leben, was ich hier predige.</aside>
+
 ![Gute Nacht](assets/img/sleeping.jpg)
 
 Quelle: Flickr.com
@@ -101,6 +107,8 @@ Quelle: Flickr.com
 ---
 
 ## Wie wir versuchen, transparent zu sein
+
+<aside class="notes">Im selben Zug möchte ich zwei Tools bzw. Ideen präsentieren, wie man mit Technologie Transparenz schaffen kann.</aside>
 
 (und effizient zu arbeiten...)
 
@@ -135,7 +143,7 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
 
 ---
 
-## Beispiel 2: Wählerstärken in den Gemeinden
+## Beispiel 2: Parteistärken in den Gemeinden
 
 ![Wahlen](assets/img/wahlen.jpg)
 
@@ -150,7 +158,7 @@ Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/electio
 ## Beispiel 2: Parteistärken in den Gemeinden
 
 * Rohdaten und Prozessierungsschritte wurden noch nicht veröffentlicht, ist aber geplant
-* Interaktive Visualisierungen mit Shiny
+* Interaktive Visualisierungen mit Shiny - gut auch für interne Kollegen (z.B. beim Radio)
 * Vorprozessierung von "Hand" kaum vorstellbar
 * Und immer wieder:
 
@@ -184,15 +192,16 @@ Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/electio
     
 ---
 
-Wir sind erst am Anfang und probieren viel aus.
-Klar ist: Transparenz ist notwendig - und machbar! 
+*Wir sind erst am Anfang und probieren viel aus.*
+*Klar ist: Transparenz ist notwendig - und machbar!*
 
 ---
 
 ## Blut geleckt?
 
 [rddj.info - damit bringt Ihr Euch R bei](http://rddj.info)
-    
+
+
 ---
 
 # Danke
