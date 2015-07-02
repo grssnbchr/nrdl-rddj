@@ -210,4 +210,4 @@ Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/electio
 
 [@srfdata](http://twitter.com/srfdata)
 
-Diese Präsentation ist verfügbar (und reproduzierbar) unter [github.com/grssnbchr/nr15-rddj](https://github.com/grssnbchr/nr15-rddj)
+Diese Präsentation ist verfügbar (und reproduzierbar) unter [github.com/grssnbchr/nr15-rddj](https://github.com/grssnbchr/nr15-rddj/blob/gh-pages/index.md)

@@ -1,3 +1,19 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Bitter";
+    src: url("assets/Bitter-Regular.ttf");
+}
+@font-face {
+    font-family: "Bitter Bold";
+    src: url("assets/Bitter-Bold.ttf");
+}
+@font-face {
+    font-family: "Bitter Italic";
+    src: url("assets/Bitter-Italic.ttf");
+}
+
+
 #slide-3-tweet iframe {
     margin-left: 25% !important;
 }
@@ -11,4 +27,24 @@ img {
 }
 .controls .navigate-up {
     display: none !important;
+}
+
+body {
+    font-family: Bitter, serif !important;
+}
+
+.reveal p {
+    font-family: Bitter, serif !important;
+}
+
+.reveal h1 {
+    font-family: "Bitter Bold" !important;
+}
+
+.reveal .slides section:first-child h1 {
+    font-size: 45px;
+    line-height: 50px;
+}
+.section .reveal .state-background {
+    background-color: #239981 !important;
 }
