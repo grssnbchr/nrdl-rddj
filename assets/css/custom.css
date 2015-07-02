@@ -79,6 +79,9 @@ body {
     background-color: #239981 !important;
 }*/
 
+.reveal .progress span {
+    background-color: #fff !important;
+}
 li {
      font-family: Bitter, serif !important;  
 }
