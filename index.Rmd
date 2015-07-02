@@ -142,19 +142,19 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
 
 ---
 
-### Beispiel 2: Parteistärken in den Gemeinden
+### Beispiel 2: Wahlen 2015
 
 ![Wahlen](assets/img/wahlen.jpg)
 
-Publizierter Artikel: [Hier](http://www.srf.ch/news/wahlen-15/wahlkampf/so-haben-die-schweizer-gemeinden-seit-1971-gewaehlt)
+Publizierte Artikel: [Hier](http://www.srf.ch/news/wahlen-15/wahlkampf/so-haben-die-schweizer-gemeinden-seit-1971-gewaehlt) oder [hier](http://www.srf.ch/news/wahlen-15/von-listenglueck-und-proporzpech)
 
-Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/elections15-project1)
+Methodik / interaktive Auswertung: z.B. [hier](https://grssnbchr.shinyapps.io/elections15-project1)
 
 --> DEMO
 
 --- 
 
-### Beispiel 2: Parteistärken in den Gemeinden
+### Beispiel 2: Wahlen 2015 
 
 * Vor allem Vorprozessierung für Visualisierung 
 * Daten und Methoden wurden noch nicht veröffentlicht, ist aber geplant
