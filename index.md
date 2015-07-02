@@ -15,12 +15,6 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-Vorbereitungen:
-
-* Shinyapps in die Gänge bringen
-* Alle Websites öffnen
-* rJava etc. installieren
-
 ### nr-Jahreskonferenz 2015
 ## Transparenz und Reproduzierbarkeit im #DDJ
 
@@ -64,9 +58,7 @@ Datenjournalisten wissen, dass die Resultate ihrer Arbeit nicht per se objektive
 
 .fragment Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden
 
-.fragment Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen
-
-.fragment Gefahr der **"Pseudo-Objektivität"** steigt mit der Komplexität der Methoden
+.fragment Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen Gefahr der **"Pseudo-Objektivität"** steigt mit der Komplexität der Methoden
 
 .fragment Interessierte sollten die Chance erhalten, uns zu hinterfragen *und* uns zu korrigieren
 
@@ -217,3 +209,5 @@ Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/electio
 [@grssnbchr](http://twitter.com/grssnbchr)
 
 [@srfdata](http://twitter.com/srfdata)
+
+Diese Präsentation ist verfügbar (und reproduzierbar) unter [github.com/grssnbchr/nr15-rddj](https://github.com/grssnbchr/nr15-rddj)
