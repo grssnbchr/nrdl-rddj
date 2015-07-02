@@ -58,9 +58,7 @@ Datenjournalisten wissen, dass die Resultate ihrer Arbeit nicht per se objektive
 
 .fragment Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden
 
-.fragment Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen
-
-.fragment Gefahr der **"Pseudo-Objektivität"** steigt mit der Komplexität der Methoden
+.fragment Jeder zusätzliche Prozessierungsschritt bedingt neue Entscheidungen Gefahr der **"Pseudo-Objektivität"** steigt mit der Komplexität der Methoden
 
 .fragment Interessierte sollten die Chance erhalten, uns zu hinterfragen *und* uns zu korrigieren
 

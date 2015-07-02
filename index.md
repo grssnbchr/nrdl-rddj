@@ -15,6 +15,12 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
+Vorbereitungen:
+
+* Shinyapps in die Gänge bringen
+* Alle Websites öffnen
+* rJava etc. installieren
+
 ### nr-Jahreskonferenz 2015
 ## Transparenz und Reproduzierbarkeit im #DDJ
 
