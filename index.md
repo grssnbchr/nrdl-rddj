@@ -28,7 +28,7 @@ Timo Grossenbacher, SRF Data
 
 [@srfdata](http://twitter.com/srfdata)
 
---- {background: "url(assets/img/title.jpg)"}
+---
 
 ## Über mich
 
