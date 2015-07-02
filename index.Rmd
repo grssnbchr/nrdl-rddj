@@ -28,7 +28,7 @@ Timo Grossenbacher, SRF Data
 
 [@srfdata](http://twitter.com/srfdata)
 
---- {background: "url(assets/img/title.jpg)"}
+---
 
 ## Über mich
 
@@ -197,6 +197,8 @@ Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/electio
 ---
 
 ## Blut geleckt?
+
+<br/><br/>
 
 [rddj.info - damit bringt Ihr Euch R bei](http://rddj.info)
 

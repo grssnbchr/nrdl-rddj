@@ -198,6 +198,8 @@ Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/electio
 
 ## Blut geleckt?
 
+<br/><br/>
+
 [rddj.info - damit bringt Ihr Euch R bei](http://rddj.info)
 
 
