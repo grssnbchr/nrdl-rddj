@@ -17,9 +17,9 @@ knit        : slidify::knit2slides
 
 
 ### nr-Jahreskonferenz 2015
-## Transparenz und Reproduzierbarkeit im #DDJ
+## Transparenz<br/> und Reproduzierbarkeit im #DDJ
 
-### Effizientes Arbeiten mit R und GitHub
+### Effizientes Arbeiten<br/> mit R und GitHub
 
 
 Timo Grossenbacher, SRF Data
@@ -57,7 +57,7 @@ Deswegen:
 <aside class="notes">Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden - schon gar nicht in einem (Zeitungs-)Artikel. Während man bei klassischen Recherchen schnell mal erklären kann, dass man z.B. eine wichtige Info in einer Gerichtsakte gefunden hat, ist es beim DDJ schwieriger.
 Datenjournalisten wissen, dass die Resultate ihrer Arbeit nicht per se objektiver ist als die von anderen Journalisten. Sie sollten sich aber auch bewusst sein, dass beliebig komplexe Auswertungen Gefahr laufen, ihre Objektivität ganz zu verlieren. Nämlich dann, wenn unüberlegt und ungerechtfertigt Entscheidungen getroffen werden, die das Resultat einer Analyse stark verändern könn(t)en. Wenn man diese Schritte nicht transparent macht, dann besteht in der Tat die Gefahr der Pseudoobjektivität. Mit der Offenlegung unserer Methoden machen wir uns zwar angreifbar, aber wir können uns auch besser rechtfertigen. Im Idealfall weisen uns Leser konstruktiv auf Fehler hin, die wir beim nächsten Mal vermeiden können.</aside>
 
-.fragment Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden
+Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden
 
 .fragment Jeder zusätzliche Prozessierungsschritt bedingt neue *Entscheidungen*<br/> – Gefahr der **"Pseudo-Objektivität"** steigt
 
@@ -69,11 +69,11 @@ Datenjournalisten wissen, dass die Resultate ihrer Arbeit nicht per se objektive
 
 <aside class="notes">Transparenz kann man verschiedentlich auslegen, ich habe einmal versucht, eine Abstufung zu machen. Jede Stufe bedingt mehr oder weniger die vorhergehenden Stufen.</aside>
 
-.fragment 1. Quellenangaben (leider keineswegs selbstverständlich...)
+.fragment 1. Quellenangaben (leider nicht selbstverständlich...)
 
 .fragment 2. Beschreibung und Rechtfertigung der Methoden, z.B. mit einem [Werkstattbericht](http://www.digitalerwandel.de/2013/04/23/wir-bauen-uns-eine-nachrichtenquelle-werkstattbericht-zum-flugrouten-radar/)
 
-.fragment 3. Offenlegung der Rohdaten und prozessierten Daten (z.B. wie bei [538.com](https://github.com/fivethirtyeight/data))
+.fragment 3. Offenlegung der Rohdaten und prozessierten Daten (z.B. wie bei [fivethirtyeight.com](https://github.com/fivethirtyeight/data))
 
 .fragment 4. Offenlegung der Methoden, volle *Reproduzierbarkeit* (z.B. wie bei der [NPR Military Gear Story](http://blog.apps.npr.org/2014/09/02/reusable-data-processing.html))
 
@@ -101,7 +101,7 @@ Datenjournalisten wissen, dass die Resultate ihrer Arbeit nicht per se objektive
 
 ![Gute Nacht](assets/img/sleeping.jpg)
 
-Quelle: Flickr.com
+<small>Bildquelle: Flickr.com</small>
 
 ---
 
@@ -156,7 +156,8 @@ Methodik / interaktive Auswertung: [Hier](https://grssnbchr.shinyapps.io/electio
 
 ### Beispiel 2: Parteistärken in den Gemeinden
 
-* Rohdaten und Prozessierungsschritte wurden noch nicht veröffentlicht, ist aber geplant
+* Vor allem Vorprozessierung für Visualisierung 
+* Daten und Methoden wurden noch nicht veröffentlicht, ist aber geplant
 * Interaktive Visualisierungen mit Shiny - u.a. für Kollegen (z.B. beim Radio)
 * Vorprozessierung von "Hand" kaum vorstellbar
 * Und immer wieder:

@@ -53,6 +53,14 @@ body {
     text-transform: none;
 }
 
+.reveal h2 {
+    line-height: 90px !important;
+}
+
+.reveal h3 {
+    line-height: 60px !important;
+}
+
 .reveal a:not(.image) {
     color: #BBE699 !important;
     text-decoration: none !important;
