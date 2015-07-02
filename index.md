@@ -15,6 +15,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
+
 ### nr-Jahreskonferenz 2015
 ## Transparenz und Reproduzierbarkeit im #DDJ
 
@@ -27,7 +28,7 @@ Timo Grossenbacher, SRF Data
 
 [@srfdata](http://twitter.com/srfdata)
 
---- 
+--- {background: "#007777"}
 
 ## Über mich
 
