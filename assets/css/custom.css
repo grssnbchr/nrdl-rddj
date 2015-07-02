@@ -2,15 +2,15 @@
 
 @font-face {
     font-family: "Bitter";
-    src: url("assets/Bitter-Regular.ttf");
+    src: url("Bitter-Regular.ttf");
 }
 @font-face {
     font-family: "Bitter Bold";
-    src: url("assets/Bitter-Bold.ttf");
+    src: url("Bitter-Bold.ttf");
 }
 @font-face {
     font-family: "Bitter Italic";
-    src: url("assets/Bitter-Italic.ttf");
+    src: url("Bitter-Italic.ttf");
 }
 
 
@@ -37,14 +37,15 @@ body {
     font-family: Bitter, serif !important;
 }
 
-.reveal h1 {
+.reveal h1, .reveal h2, .reveal h3 {
     font-family: "Bitter Bold" !important;
+    text-transform: none;
 }
 
-.reveal .slides section:first-child h1 {
+/*.reveal .slides section:first-child h1 {
     font-size: 45px;
     line-height: 50px;
 }
 .section .reveal .state-background {
     background-color: #239981 !important;
-}
+}*/
