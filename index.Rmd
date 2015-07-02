@@ -144,6 +144,8 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
 
 ### Beispiel 2: Wahlen 2015
 
+<aside class="notes">Beispiel P1: Interaktive Visualisierung mit Shiny; Beispiel P3: Vorprozessieren für Entwickler</aside>
+
 ![Wahlen](assets/img/wahlen.jpg)
 
 Publizierte Artikel: [Hier](http://www.srf.ch/news/wahlen-15/wahlkampf/so-haben-die-schweizer-gemeinden-seit-1971-gewaehlt) oder [hier](http://www.srf.ch/news/wahlen-15/von-listenglueck-und-proporzpech)
