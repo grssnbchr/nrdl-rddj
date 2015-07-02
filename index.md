@@ -32,9 +32,9 @@ Timo Grossenbacher, SRF Data
 
 ### Über mich
 
-Ursprünglich: Geographie / Informatik
+Ursprünglich: Geographie / Informatik / Tages-Anzeiger
 
-Jetzt: Seit November 2014 beim Team von SRF Data als **Programmierer** und **Datenjournalist** 
+Seit November 2014 beim Team von SRF Data als **Programmierer** und **Datenjournalist** 
 
 ![SRF Data](assets/img/srfdata.jpg)
 
