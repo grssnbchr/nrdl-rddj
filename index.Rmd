@@ -28,6 +28,8 @@ Timo Grossenbacher, SRF Data
 
 [@srfdata](http://twitter.com/srfdata)
 
+Präsentation vefügbar unter [grssnbchr.github.io/nr15-rddj](http://grssnbchr.github.io/nr15-rddj)
+
 ---
 
 ### Über mich
