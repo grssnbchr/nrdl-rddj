@@ -16,7 +16,7 @@ knit        : slidify::knit2slides
 ---
 
 
-### nr-Jahreskonferenz 2015
+### nr-Datenlabor
 ## Transparenz<br/> und Reproduzierbarkeit im #DDJ
 
 ### Effizientes Arbeiten<br/> mit R und GitHub
