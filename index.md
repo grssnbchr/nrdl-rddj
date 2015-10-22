@@ -1,5 +1,5 @@
 ---
-title       : Transparenz und Reproduzierbarkeit im Datenjournalismus
+title       : Reproduzierbarkeit im Datenjournalismus
 subtitle    : Beispiele mit R
 author      : Timo Grossenbacher
 job         : Datenjournalist @srfdata
@@ -16,11 +16,10 @@ knit        : slidify::knit2slides
 ---
 
 
-### nr-Jahreskonferenz 2015
-## Transparenz<br/> und Reproduzierbarkeit im #DDJ
+### nr-Datenlabor
+## Reproduzierbarkeit im #DDJ
 
-### Effizientes Arbeiten<br/> mit R und GitHub
-
+### Warum und wie? 
 
 Timo Grossenbacher, SRF Data
 
@@ -28,72 +27,42 @@ Timo Grossenbacher, SRF Data
 
 [@srfdata](http://twitter.com/srfdata)
 
-Präsentation vefügbar unter [grssnbchr.github.io/nr15-rddj](http://grssnbchr.github.io/nr15-rddj)
+Präsentation vefügbar unter [grssnbchr.github.io/nrdl-rddj](http://grssnbchr.github.io/nrdl-rddj)
 
 ---
 
 ### Über mich
 
-Ursprünglich: Geographie / Informatik / Tages-Anzeiger
+Ursprünglich: Studium Geographie & Informatik / Tages-Anzeiger
 
 Seit November 2014 beim Team von SRF Data als **Programmierer** und **Datenjournalist** 
 
+---
+
+### SRF Data
+
 ![SRF Data](assets/img/srfdata.jpg)
 
-
---- #slide-3-tweet
-
-### Warum Transparenz?
-
-<aside class="notes">Vor ein paar Wochen hat sich eine Schweizer Politikerin bei uns über ein neues Tool beschwert. In diesem Fall war der Vorwurf der Pseudoobjektivität völlig unbegründet - einen wunden Punkt des Datenjournalismus trifft die Dame mit dem Vorwurf jedoch trotzdem.</aside>
-
-Deswegen: 
-
-<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-partner="tweetdeck"><p lang="de" dir="ltr"><a href="https://twitter.com/brenntr">@brenntr</a> <a href="https://twitter.com/fljan">@fljan</a> <a href="https://twitter.com/srfdata">@srfdata</a> <a href="https://twitter.com/srfnews">@srfnews</a> sag ich doch, das mit dem Datenjournalismus ist eine heikle Sache und mündet zu oft in Pseudoobjektivität</p>&mdash; Jacqueline Badran (@JayBadran) <a href="https://twitter.com/JayBadran/status/613021865007820800">June 22, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
---- 
-
-### Warum Transparenz?
-
-<aside class="notes">Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden - schon gar nicht in einem (Zeitungs-)Artikel. Während man bei klassischen Recherchen schnell mal erklären kann, dass man z.B. eine wichtige Info in einer Gerichtsakte gefunden hat, ist es beim DDJ schwieriger.
-Datenjournalisten wissen, dass die Resultate ihrer Arbeit nicht per se objektiver ist als die von anderen Journalisten. Sie sollten sich aber auch bewusst sein, dass beliebig komplexe Auswertungen Gefahr laufen, ihre Objektivität ganz zu verlieren. Nämlich dann, wenn unüberlegt und ungerechtfertigt Entscheidungen getroffen werden, die das Resultat einer Analyse stark verändern könn(t)en. Wenn man diese Schritte nicht transparent macht, dann besteht in der Tat die Gefahr der Pseudoobjektivität. Mit der Offenlegung unserer Methoden machen wir uns zwar angreifbar, aber wir können uns auch besser rechtfertigen. Im Idealfall weisen uns Leser konstruktiv auf Fehler hin, die wir beim nächsten Mal vermeiden können.</aside>
-
-Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden
-
-.fragment Jeder zusätzliche Prozessierungsschritt bedingt neue *Entscheidungen*<br/> – Gefahr der **"Pseudo-Objektivität"** steigt
-
-.fragment Interessierte sollten die Chance erhalten, uns zu hinterfragen *und* uns zu korrigieren
+* Mehr Rechercheteam, weniger Dienstleister
+* Ideen pitchen, Daten sammeln / rausklagen / bekommen, Story finden
+* Publikation in Radio und/oder TV -> Anekdoten / Details / Repos
+* Publikation auf srf.ch -> Übersicht, Interaktivität
+* [Portfolio](http:/srf.ch/srfdata)
 
 ---
 
-### Stufen der Transparenz
-
-<aside class="notes">Transparenz kann man verschiedentlich auslegen, ich habe einmal versucht, eine Abstufung zu machen. Jede Stufe bedingt mehr oder weniger die vorhergehenden Stufen.</aside>
-
-.fragment 1. Quellenangaben (leider nicht selbstverständlich...)
-
-.fragment 2. Beschreibung und Rechtfertigung der Methoden, z.B. mit einem [Werkstattbericht](http://www.digitalerwandel.de/2013/04/23/wir-bauen-uns-eine-nachrichtenquelle-werkstattbericht-zum-flugrouten-radar/)
-
-.fragment 3. Offenlegung der Rohdaten und prozessierten Daten (z.B. wie bei [fivethirtyeight.com](https://github.com/fivethirtyeight/data))
-
-.fragment 4. Offenlegung der Methoden, volle *Reproduzierbarkeit* (z.B. wie bei der [NPR Military Gear Story](http://blog.apps.npr.org/2014/09/02/reusable-data-processing.html))
-
-
-
---- 
 
 ### Warum Reproduzierbarkeit?
 
-<aside class="notes">Ohne Reproduzierbarkeit keine echte, vollständige Transparenz. Richtige Reproduzierbarkeit bedingt, dass von den absoluten Rohdaten bis zum (analytischen) Endergebnis alle Schritte nachvollziehbar und ausführbar sind. Eigentlich ist dies nur zu erreichen, wenn man die Schritte "aufzeichnet", und dafür eignet sich am besten Code: Sprich, die Datenanalyse selber besteht aus einem Skript, dass einen Input nimmt und einen Output generiert. Das bringt zwei Vorteile mit sich: Man kann das Skript wiederverwenden, z.B. bei neuen Daten. Und das ganze ist automatisiert, sprich, wir können Kaffee trinken gehen, während der Computer rechnet. Die Automatisierung kann wiederum dabei helfen, Fehler zu vermeiden, die man beim manuellen Bearbeiten, z.B. bei Unkonzentriertheit, machen könnte.</aside>
+<aside class="notes">Ohne Reproduzierbarkeit keine echte, vollständige Transparenz. Richtige Reproduzierbarkeit bedingt, dass von den absoluten Rohdaten bis zum (analytischen) Endergebnis alle Schritte nachvollziehbar und ausführbar sind. Eigentlich ist dies nur zu erreichen, wenn man die Schritte "aufzeichnet", und dafür eignet sich am besten Code: Sprich, die Datenanalyse selber besteht aus einem Skript, dass einen Input nimmt und einen Output generiert. Das bringt zwei Vorteile mit sich: Man kann das Skript wiederverwenden, z.B. bei neuen Daten. Und das ganze ist automatisiert, sprich, wir können Kaffee trinken gehen, während der Computer rechnet. Die Automatisierung kann wiederum dabei helfen, Fehler zu vermeiden, die man beim manuellen Bearbeiten, z.B. aus Unkonzentriertheit, machen könnte.</aside>
 
 .fragment 1. Transparenz
 
-.fragment 2. Wiederverwendbarkeit 
+.fragment 2. Automatisierung 
 
-.fragment 3. Automatisierung 
+.fragment 2b. Wiederverwendbarkeit 
 
-.fragment 3b. Reduzierte Fehleranfälligkeit
+.fragment 2c. Reduzierte Fehleranfälligkeit
 
 --- 
 
@@ -218,5 +187,6 @@ Methodik / interaktive Auswertung: z.B. [hier](https://grssnbchr.shinyapps.io/el
 
 [@srfdata](http://twitter.com/srfdata)
 
-Diese Präsentation ist verfügbar (und reproduzierbar) unter [github.com/grssnbchr/nr15-rddj](https://github.com/grssnbchr/nr15-rddj/blob/gh-pages/index.md)
-<small>Gemacht mit [slidify](https://github.com/ramnathv/slidify) und [revealjs](https://github.com/hakimel/reveal.js/)</small>
+Diese Präsentation ist verfügbar (und reproduzierbar) unter [github.com/grssnbchr/nrdl-rddj](https://github.com/grssnbchr/nrdl-rddj/blob/gh-pages/index.md)
+
+<small>Gebaut mit [slidify](https://github.com/ramnathv/slidify) und [revealjs](https://github.com/hakimel/reveal.js/)</small>
