@@ -29,6 +29,7 @@ Timo Grossenbacher, SRF Data
 
 Präsentation vefügbar unter [grssnbchr.github.io/nrdl-rddj](http://grssnbchr.github.io/nrdl-rddj)
 
+
 ---
 
 ### Über mich
@@ -37,20 +38,30 @@ Ursprünglich: Studium Geographie & Informatik / Tages-Anzeiger
 
 Seit November 2014 beim Team von SRF Data als **Programmierer** und **Datenjournalist** 
 
+
 ---
 
 ### SRF Data
 
 ![SRF Data](assets/img/srfdata.jpg)
 
-* Mehr Rechercheteam, weniger Dienstleister
-* Ideen pitchen, Daten sammeln / rausklagen / bekommen, Story finden
-* Publikation in Radio und/oder TV -> Anekdoten / Details / Repos
-* Publikation auf srf.ch -> Übersicht, Interaktivität
-* [Portfolio](http:/srf.ch/srfdata)
-
 ---
 
+### SRF Data
+
+.fragment  Mehr Rechercheteam, weniger Dienstleister
+
+.fragment  Ideen pitchen, Daten bekommen / sammeln, scrapen / einklagen
+
+.fragment  Daten bereinigen, visualisieren, analysieren, Story finden
+
+.fragment  Publikation auf srf.ch -> Übersicht, Interaktivität
+
+.fragment  Publikation in Radio und/oder TV -> Anekdoten, Details 
+
+.fragment  [Portfolio](http://srf.ch/data)
+
+---
 
 ### Warum Reproduzierbarkeit?
 
@@ -66,21 +77,46 @@ Seit November 2014 beim Team von SRF Data als **Programmierer** und **Datenjourn
 
 --- 
 
-### Genug der Theorie!!! 
+### Warum Transparenz?
 
-<aside class="notes">Im folgenden nun zwei Beispiele, wie wir bei SRF Data konkret versuchen, das zu leben, was ich hier predige.</aside>
+<aside class="notes">Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden - schon gar nicht in einem (Zeitungs-)Artikel. Während man bei klassischen Recherchen schnell mal erklären kann, dass man z.B. eine wichtige Info in einer Gerichtsakte gefunden hat, ist es beim DDJ schwieriger.
+Datenjournalisten wissen, dass die Resultate ihrer Arbeit nicht per se objektiver ist als die von anderen Journalisten. Sie sollten sich aber auch bewusst sein, dass beliebig komplexe Auswertungen Gefahr laufen, ihre Objektivität ganz zu verlieren. Nämlich dann, wenn unüberlegt und ungerechtfertigt Entscheidungen getroffen werden, die das Resultat einer Analyse stark verändern könn(t)en. Wenn man diese Schritte nicht transparent macht, dann besteht in der Tat die Gefahr der Pseudoobjektivität. Mit der Offenlegung unserer Methoden machen wir uns zwar angreifbar, aber wir können uns auch besser rechtfertigen. Im Idealfall weisen uns Leser konstruktiv auf Fehler hin, die wir beim nächsten Mal vermeiden können.</aside>
 
-![Gute Nacht](assets/img/sleeping.jpg)
+Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklärt werden
 
-<small>Bildquelle: Flickr.com</small>
+.fragment Jeder zusätzliche Prozessierungsschritt bedingt neue *Entscheidungen*<br/> – Gefahr der **"Pseudo-Objektivität"** steigt
+
+.fragment Interessierte sollten die Chance erhalten, uns zu hinterfragen *und* uns zu korrigieren
 
 ---
 
-### Wie wir versuchen, transparent zu sein
+### Stufen der Transparenz
 
-<aside class="notes">Im selben Zug möchte ich zwei Tools bzw. Ideen präsentieren, wie man mit Technologie Transparenz schaffen kann.</aside>
+<aside class="notes">Transparenz kann man verschiedentlich auslegen, ich habe einmal versucht, eine Abstufung zu machen. Jede Stufe bedingt mehr oder weniger die vorhergehenden Stufen.</aside>
 
-(und effizient zu arbeiten...)
+.fragment 1. Quellenangaben (leider nicht selbstverständlich...)
+
+.fragment 2. Beschreibung und Rechtfertigung der Methoden, z.B. mit einem [Werkstattbericht](http://www.digitalerwandel.de/2013/04/23/wir-bauen-uns-eine-nachrichtenquelle-werkstattbericht-zum-flugrouten-radar/)
+
+.fragment 3. Offenlegung der Rohdaten und prozessierten Daten (z.B. wie bei [fivethirtyeight.com](https://github.com/fivethirtyeight/data))
+
+.fragment 4. Offenlegung der Methoden, volle *Reproduzierbarkeit* (z.B. wie bei der [NPR Military Gear Story](http://blog.apps.npr.org/2014/09/02/reusable-data-processing.html))
+
+--- 
+
+### In der Praxis
+
+<aside class="notes">Im folgenden nun ein paar Beispiele, wie wir bei SRF Data konkret versuchen, das zu leben, was ich hier predige.</aside>
+
+Bezüglich Transparenz: [srfdata.github.io](http://srfdata.github.io)
+
+Bezüglich Automatisierung: Eidgenössische Wahlen 2015
+
+---
+
+### Tools of trade
+
+<aside class="notes">Im selben Zug möchte ich zwei Tools bzw. Ideen präsentieren, wie man mit Technologie Transparenz und Reproduzierbarkeit schaffen kann.</aside>
 
 [R](http://r-project.org) / [RMarkdown](http://rmarkdown.rstudio.com/)
 
@@ -88,7 +124,14 @@ Seit November 2014 beim Team von SRF Data als **Programmierer** und **Datenjourn
 
 ---
 
-### Beispiel 1: Rüstungsexporte
+### Tools of trade
+
+![Rangelo](assets/img/rangelo.jpg)
+
+
+---
+
+### Transparenz
 
 ![Rüstungsexporte](assets/img/notrecht.jpg)
 
@@ -96,11 +139,9 @@ Publizierter Artikel: [Hier](http://www.srf.ch/news/schweiz/notrecht-als-letztes
 
 Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/)
 
---> DEMO
-
 ---
 
-### Beispiel 1: Rüstungsexporte
+### Rüstungsexporte
 
 * Auswertung der Daten in R:
  * Reinladen
@@ -109,33 +150,19 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
  
 * Publikation als Markdown-HTML
 * Publikation auf GitHub Pages:
- * Automatisiert über Shell-Skript
+ * Automatisiert über [Shell-Script](grssnbchr...)
 
 ---
 
-### Beispiel 2: Wahlen 2015
+### Eidgenössische Wahlen 2015
 
-<aside class="notes">Beispiel P1: Interaktive Visualisierung mit Shiny; Beispiel P3: Vorprozessieren für Entwickler</aside>
+# Video Welcome To SVP
 
-![Wahlen](assets/img/wahlen.jpg)
+# AR-Grafiken 
 
-Publizierte Artikel: [Hier](http://www.srf.ch/news/wahlen-15/wahlkampf/so-haben-die-schweizer-gemeinden-seit-1971-gewaehlt) oder [hier](http://www.srf.ch/news/wahlen-15/von-listenglueck-und-proporzpech)
+# Foto Backoffice mit Konrad
 
-Methodik / interaktive Auswertung: z.B. [hier](https://grssnbchr.shinyapps.io/elections15-project1)
-
---> DEMO
-
---- 
-
-### Beispiel 2: Wahlen 2015 
-
-* Vor allem Vorprozessierung für Visualisierung 
-* Daten und Methoden wurden noch nicht veröffentlicht, ist aber geplant
-* Interaktive Visualisierungen mit Shiny - u.a. für Kollegen (z.B. beim Radio)
-* Vorprozessierung von "Hand" kaum vorstellbar
-* Und immer wieder:
-
-`git status`
+# Demo mit Scripts 
 
 ---
 
@@ -176,6 +203,9 @@ Methodik / interaktive Auswertung: z.B. [hier](https://grssnbchr.shinyapps.io/el
 
 [rddj.info - damit bringt Ihr Euch R bei](http://rddj.info)
 
+[Coursera Data Products](http://coursera.com)
+
+[grssnbchr/reproducible-dataworflow](...)
 
 ---
 
