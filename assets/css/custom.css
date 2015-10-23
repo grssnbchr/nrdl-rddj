@@ -130,3 +130,26 @@ body {
 li {
      font-family: Arial, serif !important;  
 }
+
+aside.controls {
+    display: none;
+}
+#wahlen-studio {
+    background-image: url("../img/entscheidung.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-position: 50% 50%;
+    z-index: 1;
+}
+
+#wahlen-konrad {
+    background-image: url("../img/konrad.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-position: 50% 50%;
+    z-index: 1;
+}

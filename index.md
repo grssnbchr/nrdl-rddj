@@ -104,6 +104,26 @@ Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklä
 
 --- 
 
+### Exkurs: Wissenschaft
+
+<aside class="notes">Meine persönliche Erfahrung ist: Wissenschaft ist heute alles andere als reproduzierbar</aside>
+
+* [Studie in Nature, 2012](http://www.nature.com/nature/journal/v483/n7391/full/483531a.html): 47 von 53 Studien in der Krebsforschung sind nicht reproduzierbar
+* Portale wie [PLOS one](http://www.plosone.org/) versuchen, Wissenschaft reproduzierbarer zu machen
+
+---
+
+### Exkurs: Wissenschaft
+
+<aside class="notes">Dieses Buch kann ich sehr empfehlen</aside>
+
+![SDW](assets/img/wrong.png)
+
+[Statistics Done Wrong](http://www.statisticsdonewrong.com/)
+
+---
+
+
 ### In der Praxis
 
 <aside class="notes">Im folgenden nun ein paar Beispiele, wie wir bei SRF Data konkret versuchen, das zu leben, was ich hier predige.</aside>
@@ -120,7 +140,7 @@ Bezüglich Automatisierung: Eidgenössische Wahlen 2015
 
 [R](http://r-project.org) / [RMarkdown](http://rmarkdown.rstudio.com/)
 
-[GitHub](http://github.com)
+[Git / GitHub](http://github.com)
 
 ---
 
@@ -150,19 +170,24 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
  
 * Publikation als Markdown-HTML
 * Publikation auf GitHub Pages:
- * Automatisiert über [Shell-Script](grssnbchr...)
+ * Automatisiert über [Shell-Script](https://github.com/grssnbchr/rddj-reproducibility-workflow)
 
 ---
 
 ### Eidgenössische Wahlen 2015
 
-# Video Welcome To SVP
+![Welcome To SVP](assets/img/welcometosvp.gif)
 
-# AR-Grafiken 
+<small>Bildquelle: Jonas Bayona</small>
 
-# Foto Backoffice mit Konrad
 
-# Demo mit Scripts 
+--- #wahlen-studio
+
+&nbsp;
+
+--- #wahlen-konrad data-background
+
+&nbsp;
 
 ---
 
@@ -182,14 +207,13 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
 
 ---
 
-### Fazit
+### Automate EVERYTHING!
 
-**GitHub** ermöglicht uns:
+![Tinder-Automation](assets/img/automate.gif)
 
-* Austausch von Code und Daten (intern und extern)
-* Schnelle Publikation über GitHub Pages
-* Versionsvergleiche
-    
+<small>Bildquelle: giphy.com</small>
+
+
 ---
 
 *Wir sind erst am Anfang und probieren viel aus.*<br/>
@@ -199,13 +223,11 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
 
 ## Blut geleckt?
 
-<br/><br/>
-
 [rddj.info - damit bringt Ihr Euch R bei](http://rddj.info)
 
-[Coursera Data Products](http://coursera.com)
+[Coursera "Developing Data Products"](https://www.coursera.org/course/devdataprod)
 
-[grssnbchr/reproducible-dataworflow](...)
+[grssnbchr/rddj-reproducibility-workflow](https://github.com/grssnbchr/rddj-reproducibility-workflow)
 
 ---
 
