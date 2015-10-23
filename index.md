@@ -88,6 +88,8 @@ Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklä
 
 .fragment Interessierte sollten die Chance erhalten, uns zu hinterfragen *und* uns zu korrigieren
 
+.fragment vgl. Vortrag von [Fernando Perez](http://www.bbc.com/news/magazine-22223190) gestern
+
 ---
 
 ### Stufen der Transparenz
@@ -108,8 +110,9 @@ Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklä
 
 <aside class="notes">Meine persönliche Erfahrung ist: Wissenschaft ist heute alles andere als reproduzierbar</aside>
 
-* [Studie in Nature, 2012](http://www.nature.com/nature/journal/v483/n7391/full/483531a.html): 47 von 53 Studien in der Krebsforschung sind nicht reproduzierbar
-* Portale wie [PLOS one](http://www.plosone.org/) versuchen, Wissenschaft reproduzierbarer zu machen
+ * [Studie in Nature, 2012](http://www.nature.com/nature/journal/v483/n7391/full/483531a.html): 47 von 53 Studien in der Krebsforschung sind nicht reproduzierbar
+
+ * Portale wie [PLOS one](http://www.plosone.org/) versuchen, Wissenschaft reproduzierbarer zu machen
 
 ---
 
@@ -117,7 +120,8 @@ Das **Problem**: Datenjournalistische Arbeit kann nur selten ausführlich erklä
 
 <aside class="notes">Dieses Buch kann ich sehr empfehlen</aside>
 
-![SDW](assets/img/wrong.png)
+<a href="http://www.statisticsdonewrong.com/"><img src="assets/img/wrong.png" width="400"></a>
+
 
 [Statistics Done Wrong](http://www.statisticsdonewrong.com/)
 
@@ -134,7 +138,7 @@ Bezüglich Automatisierung: Eidgenössische Wahlen 2015
 
 ---
 
-### Tools of trade
+### Tools of Trade
 
 <aside class="notes">Im selben Zug möchte ich zwei Tools bzw. Ideen präsentieren, wie man mit Technologie Transparenz und Reproduzierbarkeit schaffen kann.</aside>
 
@@ -144,14 +148,19 @@ Bezüglich Automatisierung: Eidgenössische Wahlen 2015
 
 ---
 
-### Tools of trade
+### Tools of Trade
 
-![Rangelo](assets/img/rangelo.jpg)
-
+<img src="assets/img/rangelo.jpg" width="400">
 
 ---
 
-### Transparenz
+### Transparenz & Open Data
+
+<img src="assets/img/seco.gif" width="600">
+
+---
+
+### Rüstungsexporte
 
 ![Rüstungsexporte](assets/img/notrecht.jpg)
 
@@ -191,6 +200,10 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
 
 ---
 
+### Demo
+
+---
+
 ### Fazit
 
 **R** ermöglicht uns:
@@ -209,15 +222,11 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
 
 ### Automate EVERYTHING!
 
-![Tinder-Automation](assets/img/automate.gif)
+<img src="assets/img/automate.gif" width="600">
 
 <small>Bildquelle: giphy.com</small>
 
-
----
-
-*Wir sind erst am Anfang und probieren viel aus.*<br/>
-*Klar ist: Transparenz ist notwendig - und machbar!*
+.fragment <h3>...and make it reproducible.</h3>
 
 ---
 
@@ -228,6 +237,10 @@ Methodik und Rohdaten: [Hier](http://srfdata.github.io/1503-seco-dual-use-goods/
 [Coursera "Developing Data Products"](https://www.coursera.org/course/devdataprod)
 
 [grssnbchr/rddj-reproducibility-workflow](https://github.com/grssnbchr/rddj-reproducibility-workflow)
+
+Maybe the next big shit: [Project Jupyter](https://try.jupyter.org/)
+
+Auch spannend: [Brian Keegan calls out 538 for openness in #ddj](http://www.brianckeegan.com/2014/04/the-need-for-openness-in-data-journalism/)
 
 ---
 
